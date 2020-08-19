@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 观察者模式 自定义事件；
+    function a(){
+        console.log("a的逻辑");
+        // console.log("b的逻辑");
+    }
+
+    function b(){
+        console.log("b的逻辑");
+    }
+    // document.addEventListener("myevent",a);
+    // document.addEventListener("click",b);
+    // a();
+    // b();
+    // let handler = {};
+    // // {myevnet:[a,b,c]}
+    // // 自定义事件
+    // function addEvent(eventName,fn){
+    //     // 保存事件  vue 组件通信；$emit() triiger    $on()  addEvent;
+    //     //let handler =  {myevent:[]}
+    //    if(typeof handler[eventName] ==='undefined'){
+    //         handler[eventName] = [];
+    //    }
+    //      handler[eventName].push(fn);
+    // }
+    // addEvent("myevent",a);
+    // addEvent("myevent",b);
+    // // console.log(handler);
+    
+    // function trigger(eventName){
+    //     if(typeof handler[eventName] === "undefined"){
+    //         return ;
+    //     }
+    //     handler[eventName].forEach(v=>{
+    //         v();
+    //     })
+    // }
+    // trigger("myevent");
+
+
+
+
+</script>
+</html>
